@@ -1,0 +1,14 @@
+
+const math = require('mathjs');
+
+// Define some mathematical expressions
+const expression1 = '2 * (3 + 4)';
+const expression2 = 'sin(45 deg) ^ 2 + cos(45 deg) ^ 2';
+
+// Evaluate the expressions
+const result1 = math.evaluate(expression1);
+const result2 = math.evaluate(expression2);
+
+// Print the results
+console.log('Result of expression 1: ', result1);
+console.log('Result of expression 2: ', result2);
